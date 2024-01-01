@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/abir/Documents/GitHub/MyAutomationProject">
+        <classes>
+            <class name="TestNG.MyFirstTest">
+                <methods>
+                    <include name="validate_login"/>
+                    <include name="validate_add_items_to_cart"/>
+                    <include name="validate_cart"/>
+                    <include name="validate_checkout_page"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
